@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3000;
 
 // Replace with your own simple secret check
-const SECRET = "yourStrongSecretHere";
+const SECRET = "1234";
 
 app.use(express.urlencoded({ extended: true }));
 
